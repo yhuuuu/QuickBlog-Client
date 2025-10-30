@@ -15,7 +15,7 @@ const BlogList = () => {
                         <button onClick={() => {
                             //When a button is clicked, it triggers setMenu(item) to mark that item as selected
                             setMenu(item);
-                            // console.log(item)
+                            console.log(item)
                         }}
                             //The button class changes if the button’s category matches the selected menu
                             className={`cursor-pointer text-gray-500 ${menu === item && 'text-white px-4 pt-0.5'}`}>
